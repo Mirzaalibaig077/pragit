@@ -1,0 +1,46 @@
+/* Reset default spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body style */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+/* Header */
+.header {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+/* Container */
+.container {
+  display: flex;
+  gap: 20px;
+  padding: 40px;
+  justify-content: center;
+}
+
+/* Cards */
+.card {
+  background: white;
+  padding: 20px;
+  width: 250px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+/* Footer */
+.footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
